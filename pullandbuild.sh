@@ -2,8 +2,7 @@
 
 packages_dir="Cosas guays LaTeX"
 packages_changed=false
-repo_dir="repo"
-ruby_bin="/home/gjulianm/.rvm/rubies/ruby-2.0.0-p451/bin/ruby"
+repo_dir="/home/vicdejuan/Documents/Carrera/Apuntes"
 failed=""
 updated=""
 
@@ -169,7 +168,7 @@ for texfile in $(ls $repo_dir/*/*.tex); do
 			(( dir_upd += 1))
 			updated="$updated $texfile"
 			echo "Uploading $texfile..."
-			$ruby_bin "$cwd/dbupload.rb" "$db_token" "${texfile/.tex/.pdf}"
+			cp "${texfile/.tex/.pdf}" "/home/vicdejuan/Documents/Carrera/.pdf"
 		else
 			(( dir_err += 1))
 			echo "Compilation failed for $texfile"
