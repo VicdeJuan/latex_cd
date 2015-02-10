@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-export MEGA_PWD=$(cat ~/.mega_pwd)
-export MEGA_EMAIL=$(cat ~/.mega_em)
+export MEGA_PWD=$(cat /.mega_pwd)
+export MEGA_EMAIL=$(cat /.mega_em)
 
 
 local="/root/.pdf"
