@@ -2,7 +2,7 @@
 
 packages_dir="Cosas guays LaTeX"
 packages_changed=false
-repo_dir="/home/vicdejuan/Documents/Carrera/Apuntes"
+repo_dir="/root/Apuntes"
 failed=""
 updated=""
 

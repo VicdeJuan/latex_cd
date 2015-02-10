@@ -4,14 +4,14 @@ export MEGA_PWD=$(cat ~/.mega_pwd)
 export MEGA_EMAIL=$(cat ~/.mega_em)
 
 
-local="/home/vicdejuan/Documents/Carrera/.pdf"
+local="/root/.pdf"
 
-repo_dir="/home/vicdejuan/Documents/Carrera/Apuntes"
+repo_dir="/root/Apuntes"
 remote="Doble\ Grado\ UAM\ \(1\)/Apuntes\ Latex"
 
-echo $remote
+
 ## Sync folder.
-#megasimplesync $local $remote
+megasimplesync $local $remote
 
 
 
